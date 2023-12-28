@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Inter:wght@200;300;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,400;0,700;1,300&family=Rubik+Iso&family=Sacramento&family=Titillium+Web:ital,wght@0,600;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    @media screen and (max-width:430px){
+        margin: 0 auto;
+        padding: 0 10px;
+        max-width: 430px;
+    }
+
+    @media screen and (max-width:834px) {
+        margin: 0 auto;
+        padding: 0 50px;
+        max-width: 834px;
+    }
+
+    @media screen and (max-width:1024px) {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+}
+
